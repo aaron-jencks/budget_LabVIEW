@@ -53,6 +53,9 @@
 					<Item Name="ACreditAccount.lvclass" Type="LVClass" URL="../../shared/ACreditAccount/ACreditAccount.lvclass"/>
 					<Item Name="AReceipt.lvclass" Type="LVClass" URL="../../shared/AReceipt/AReceipt.lvclass"/>
 				</Item>
+				<Item Name="SimpleChecking.lvclass" Type="LVClass" URL="../../shared/SimpleChecking/SimpleChecking.lvclass"/>
+				<Item Name="SimpleSavings.lvclass" Type="LVClass" URL="../../shared/SimpleSavings/SimpleSavings.lvclass"/>
+				<Item Name="SimpleCredit.lvclass" Type="LVClass" URL="../../shared/SimpleCredit/SimpleCredit.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Main_Host.vi" Type="VI" URL="../../Main_Host/Main_Host.vi"/>
@@ -97,6 +100,7 @@
 				<Item Name="VI Control - MCListbox - BGColor.vi" Type="VI" URL="/&lt;userlib&gt;/JET Engineering/JET VI Control/MC Listbox/VI Control - MCListbox - BGColor.vi"/>
 				<Item Name="VI Control - MCListbox - Set Value.vi" Type="VI" URL="/&lt;userlib&gt;/JET Engineering/JET VI Control/MC Listbox/VI Control - MCListbox - Set Value.vi"/>
 				<Item Name="VI Control - MCListbox - Shade Unused Rows.vi" Type="VI" URL="/&lt;userlib&gt;/JET Engineering/JET VI Control/MC Listbox/VI Control - MCListbox - Shade Unused Rows.vi"/>
+				<Item Name="VI Control - Disable Control.vi" Type="VI" URL="/&lt;userlib&gt;/JET Engineering/JET VI Control/VI Control - Disable Control.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>

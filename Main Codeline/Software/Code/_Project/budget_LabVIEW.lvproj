@@ -34,6 +34,13 @@
 			<Item Name="Globals" Type="Folder" URL="../../Shared/Globals">
 				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Interfaces" Type="Folder">
+				<Item Name="IDepositable.lvclass" Type="LVClass" URL="../../Shared/IDepositable/IDepositable.lvclass"/>
+				<Item Name="IWithdrawable.lvclass" Type="LVClass" URL="../../shared/IWithdrawable/IWithdrawable.lvclass"/>
+				<Item Name="IInterest.lvclass" Type="LVClass" URL="../../shared/IInterest/IInterest.lvclass"/>
+				<Item Name="IBorrowable.lvclass" Type="LVClass" URL="../../shared/IBorrowable/IBorrowable.lvclass"/>
+				<Item Name="IPayable.lvclass" Type="LVClass" URL="../../shared/IPayable/IPayable.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="Main_Host.vi" Type="VI" URL="../../Main_Host/Main_Host.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">

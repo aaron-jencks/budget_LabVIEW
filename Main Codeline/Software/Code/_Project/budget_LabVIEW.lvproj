@@ -54,7 +54,6 @@
 					<Item Name="AReceipt.lvclass" Type="LVClass" URL="../../shared/AReceipt/AReceipt.lvclass"/>
 				</Item>
 			</Item>
-			<Item Name="Account Information STYP.ctl" Type="VI" URL="../../Shared/Account Information STYP.ctl"/>
 		</Item>
 		<Item Name="Main_Host.vi" Type="VI" URL="../../Main_Host/Main_Host.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">

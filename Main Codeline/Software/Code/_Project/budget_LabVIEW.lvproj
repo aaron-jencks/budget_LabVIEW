@@ -41,6 +41,16 @@
 				<Item Name="IBorrowable.lvclass" Type="LVClass" URL="../../shared/IBorrowable/IBorrowable.lvclass"/>
 				<Item Name="IPayable.lvclass" Type="LVClass" URL="../../shared/IPayable/IPayable.lvclass"/>
 			</Item>
+			<Item Name="Accounts" Type="Folder">
+				<Item Name="Abstracts" Type="Folder">
+					<Item Name="AAccount.lvclass" Type="LVClass" URL="../../shared/AAccount/AAccount.lvclass"/>
+					<Item Name="AInterestAccount.lvclass" Type="LVClass" URL="../../shared/AInterestAccount/AInterestAccount.lvclass"/>
+					<Item Name="ASavings.lvclass" Type="LVClass" URL="../../shared/ASavings/ASavings.lvclass"/>
+					<Item Name="AChecking.lvclass" Type="LVClass" URL="../../shared/AChecking/AChecking.lvclass"/>
+					<Item Name="ACreditAccount.lvclass" Type="LVClass" URL="../../shared/ACreditAccount/ACreditAccount.lvclass"/>
+					<Item Name="AReceipt.lvclass" Type="LVClass" URL="../../shared/AReceipt/AReceipt.lvclass"/>
+				</Item>
+			</Item>
 		</Item>
 		<Item Name="Main_Host.vi" Type="VI" URL="../../Main_Host/Main_Host.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">

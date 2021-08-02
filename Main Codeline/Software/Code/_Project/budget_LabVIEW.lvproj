@@ -81,21 +81,17 @@
 				<Item Name="JETPanel_Behavior_STYP.ctl" Type="VI" URL="/&lt;userlib&gt;/Jet Labs/JET Panel/JETPanel_Behavior_STYP.ctl"/>
 				<Item Name="JET_QSM - Flush Debug Queue.vi" Type="VI" URL="/&lt;userlib&gt;/JET Engineering/JET_QSM/Code/Public/JET_QSM - Flush Debug Queue.vi"/>
 				<Item Name="JETPanel_Bounds_STYP.ctl" Type="VI" URL="/&lt;userlib&gt;/Jet Labs/JET Panel/JETPanel_Bounds_STYP.ctl"/>
-				<Item Name="Module_JSMA_UI_ExceptionHandler.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/JET Engineering/JSMA Exception Handler UI/Module_JSMA_UI_ExceptionHandler.lvclass"/>
 				<Item Name="VI Control - MCListbox - Replace Contents_1.vi" Type="VI" URL="/&lt;userlib&gt;/JET Engineering/JET VI Control/MC Listbox/VI Control - MCListbox - Replace Contents_1.vi"/>
 				<Item Name="VI Control - MCListbox - Replace Contents_3.vi" Type="VI" URL="/&lt;userlib&gt;/JET Engineering/JET VI Control/MC Listbox/VI Control - MCListbox - Replace Contents_3.vi"/>
 				<Item Name="VI Control - MCListbox - Replace Contents_2.vi" Type="VI" URL="/&lt;userlib&gt;/JET Engineering/JET VI Control/MC Listbox/VI Control - MCListbox - Replace Contents_2.vi"/>
 				<Item Name="VI Control - MCListbox - Replace Contents.vi" Type="VI" URL="/&lt;userlib&gt;/JET Engineering/JET VI Control/MC Listbox/VI Control - MCListbox - Replace Contents.vi"/>
-				<Item Name="Daemon_JSMAExceptionNotificationUI_FormatMessage.vi" Type="VI" URL="/&lt;userlib&gt;/JET Engineering/JSMA Exception Handler UI/Private/Daemon_JAMAExceptionNotificationUI/Daemon_JSMAExceptionNotificationUI_FormatMessage.vi"/>
-				<Item Name="Daemon_JSMAExceptionNotificationUI - Status STYP.ctl" Type="VI" URL="/&lt;userlib&gt;/JET Engineering/JSMA Exception Handler UI/Private/Daemon_JAMAExceptionNotificationUI/Daemon_JSMAExceptionNotificationUI - Status STYP.ctl"/>
-				<Item Name="Daemon_JSMAExceptionNotificationUI.vi" Type="VI" URL="/&lt;userlib&gt;/JET Engineering/JSMA Exception Handler UI/Private/Daemon_JAMAExceptionNotificationUI/Daemon_JSMAExceptionNotificationUI.vi"/>
-				<Item Name="Daemon_JSMAExceptionNotificationUI Launcher.vi" Type="VI" URL="/&lt;userlib&gt;/JET Engineering/JSMA Exception Handler UI/Private/Daemon_JAMAExceptionNotificationUI/Daemon_JSMAExceptionNotificationUI Launcher.vi"/>
 				<Item Name="VI Control - MCListbox - Set Column Justification.vi" Type="VI" URL="/&lt;userlib&gt;/JET Engineering/JET VI Control/MC Listbox/VI Control - MCListbox - Set Column Justification.vi"/>
 				<Item Name="VI Control - MCListbox - Initialize.vi" Type="VI" URL="/&lt;userlib&gt;/JET Engineering/JET VI Control/MC Listbox/VI Control - MCListbox - Initialize.vi"/>
 				<Item Name="File - File Name - Add Timestamp.vi" Type="VI" URL="/&lt;userlib&gt;/JET Engineering/JET File-Dir-Path/File - File Name - Add Timestamp.vi"/>
 				<Item Name="JSMA API.lvlib" Type="Library" URL="/&lt;userlib&gt;/JET Engineering/JSMA/Libraries/JSMA API.lvlib"/>
 				<Item Name="JSMAjMsg_Standard.lvlib" Type="Library" URL="/&lt;userlib&gt;/JET Engineering/JSMA Standard Messages/JSMAjMsg_Standard.lvlib"/>
 				<Item Name="JETPanel_Size_STYP.ctl" Type="VI" URL="/&lt;userlib&gt;/Jet Labs/JET Panel/JETPanel_Size_STYP.ctl"/>
+				<Item Name="JSMAExceptionHanding.lvlib" Type="Library" URL="/&lt;userlib&gt;/JET Engineering/JSMA Exception Handler UI/JSMAExceptionHanding.lvlib"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>

@@ -29,7 +29,9 @@
 		<Item Name="jMsgs" Type="Folder" URL="../../Shared/jMsgs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Modules" Type="Folder"/>
+		<Item Name="Modules" Type="Folder">
+			<Item Name="Module_UI_TopLevel.lvclass" Type="LVClass" URL="../../Module_UI_TopLevel/Module_UI_TopLevel.lvclass"/>
+		</Item>
 		<Item Name="Shared" Type="Folder">
 			<Item Name="Globals" Type="Folder" URL="../../Shared/Globals">
 				<Property Name="NI.DISK" Type="Bool">true</Property>

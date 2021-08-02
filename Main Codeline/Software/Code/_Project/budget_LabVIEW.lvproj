@@ -42,6 +42,7 @@
 				<Item Name="IInterest.lvclass" Type="LVClass" URL="../../shared/IInterest/IInterest.lvclass"/>
 				<Item Name="IBorrowable.lvclass" Type="LVClass" URL="../../shared/IBorrowable/IBorrowable.lvclass"/>
 				<Item Name="IPayable.lvclass" Type="LVClass" URL="../../shared/IPayable/IPayable.lvclass"/>
+				<Item Name="IInfoable.lvclass" Type="LVClass" URL="../../shared/IInfoable/IInfoable.lvclass"/>
 			</Item>
 			<Item Name="Accounts" Type="Folder">
 				<Item Name="Abstracts" Type="Folder">
@@ -53,6 +54,7 @@
 					<Item Name="AReceipt.lvclass" Type="LVClass" URL="../../shared/AReceipt/AReceipt.lvclass"/>
 				</Item>
 			</Item>
+			<Item Name="Account Information STYP.ctl" Type="VI" URL="../../Shared/Account Information STYP.ctl"/>
 		</Item>
 		<Item Name="Main_Host.vi" Type="VI" URL="../../Main_Host/Main_Host.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -92,6 +94,10 @@
 				<Item Name="JSMAjMsg_Standard.lvlib" Type="Library" URL="/&lt;userlib&gt;/JET Engineering/JSMA Standard Messages/JSMAjMsg_Standard.lvlib"/>
 				<Item Name="JETPanel_Size_STYP.ctl" Type="VI" URL="/&lt;userlib&gt;/Jet Labs/JET Panel/JETPanel_Size_STYP.ctl"/>
 				<Item Name="JSMAExceptionHanding.lvlib" Type="Library" URL="/&lt;userlib&gt;/JET Engineering/JSMA Exception Handler UI/JSMAExceptionHanding.lvlib"/>
+				<Item Name="UITable.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Jet Labs/JET UITable/UITable.lvclass"/>
+				<Item Name="VI Control - MCListbox - BGColor.vi" Type="VI" URL="/&lt;userlib&gt;/JET Engineering/JET VI Control/MC Listbox/VI Control - MCListbox - BGColor.vi"/>
+				<Item Name="VI Control - MCListbox - Set Value.vi" Type="VI" URL="/&lt;userlib&gt;/JET Engineering/JET VI Control/MC Listbox/VI Control - MCListbox - Set Value.vi"/>
+				<Item Name="VI Control - MCListbox - Shade Unused Rows.vi" Type="VI" URL="/&lt;userlib&gt;/JET Engineering/JET VI Control/MC Listbox/VI Control - MCListbox - Shade Unused Rows.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -135,6 +141,9 @@
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
+				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
+				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
+				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 			</Item>
 			<Item Name="Main_Host - Handle Errors.vi" Type="VI" URL="../../Main_Host/Main_Host - Handle Errors.vi"/>
 			<Item Name="Main_Host - Initialize Main Paths.vi" Type="VI" URL="../../Main_Host/Main_Host - Initialize Main Paths.vi"/>

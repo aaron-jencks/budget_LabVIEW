@@ -1,64 +1,66 @@
 @startuml
-interface IDepositable {
-+ deposit(amount: float) -> float
+package Accounts {
+    interface IDepositable {
+    + deposit(amount: float) -> float
+    }
+
+    interface IWithdrawable {
+    + withdraw(amount: float) -> float
+    }
+
+    interface IPayable {
+    + pay(amount: float) -> float
+    }
+
+    interface IBorrowable {
+    + borrow(amount: float) -> float
+    }
+
+    abstract class AAccount {
+    + amount: float
+    + account_number: String
+    }
+
+    interface IInterest {
+    + compound(t: timestamp) -> float
+    }
+
+    abstract class AInterestAccount {
+    + rate: double
+    + interval: timestamp
+    }
+
+    IInterest <-- AInterestAccount
+    AAccount <|-- AInterestAccount
+
+    abstract class ACreditAccount {
+    + limit: float
+    + limit_interval: timestamp
+    }
+
+    IBorrowable <-- ACreditAccount
+    IPayable <-- ACreditAccount
+    AInterestAccount <|-- ACreditAccount
+
+    abstract class ASavings {
+    }
+
+    IDepositable <-- ASavings
+    IWithdrawable <-- ASavings
+    AInterestAccount <|-- ASavings
+
+    abstract class AChecking {
+    + routing_number: String
+    }
+
+    IDepositable <-- AChecking
+    IWithdrawable <-- AChecking
+    AAccount <|-- AChecking
+
+    abstract class AReceipt {
+    + amount: float
+    + store: Enum
+    }
+    IPayable <-- AReceipt
 }
-
-interface IWithdrawable {
-+ withdraw(amount: float) -> float
-}
-
-interface IPayable {
-+ pay(amount: float) -> float
-}
-
-interface IBorrowable {
-+ borrow(amount: float) -> float
-}
-
-abstract class AAccount {
-+ amount: float
-+ account_number: String
-}
-
-interface IInterest {
-+ compound(t: timestamp) -> float
-}
-
-abstract class AInterestAccount {
-+ rate: double
-+ interval: timestamp
-}
-
-IInterest <-- AInterestAccount
-AAccount <|-- AInterestAccount
-
-abstract class ACreditAccount {
-+ limit: float
-+ limit_interval: timestamp
-}
-
-IBorrowable <-- ACreditAccount
-IPayable <-- ACreditAccount
-AInterestAccount <|-- ACreditAccount
-
-abstract class ASavings {
-}
-
-IDepositable <-- ASavings
-IWithdrawable <-- ASavings
-AInterestAccount <|-- ASavings
-
-abstract class AChecking {
-+ routing_number: String
-}
-
-IDepositable <-- AChecking
-IWithdrawable <-- AChecking
-AAccount <|-- AChecking
-
-abstract class AReceipt {
-+ amount: float
-+ store: Enum
-}
-IPayable <-- AReceipt
 @enduml

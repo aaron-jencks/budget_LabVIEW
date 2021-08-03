@@ -37,7 +37,7 @@
 				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Interfaces" Type="Folder">
-				<Item Name="IDepositable.lvclass" Type="LVClass" URL="../../Shared/IDepositable/IDepositable.lvclass"/>
+				<Item Name="IDepositable.lvclass" Type="LVClass" URL="../../shared/IDepositable/IDepositable.lvclass"/>
 				<Item Name="IWithdrawable.lvclass" Type="LVClass" URL="../../shared/IWithdrawable/IWithdrawable.lvclass"/>
 				<Item Name="IInterest.lvclass" Type="LVClass" URL="../../shared/IInterest/IInterest.lvclass"/>
 				<Item Name="IBorrowable.lvclass" Type="LVClass" URL="../../shared/IBorrowable/IBorrowable.lvclass"/>
@@ -51,11 +51,21 @@
 					<Item Name="ASavings.lvclass" Type="LVClass" URL="../../shared/ASavings/ASavings.lvclass"/>
 					<Item Name="AChecking.lvclass" Type="LVClass" URL="../../shared/AChecking/AChecking.lvclass"/>
 					<Item Name="ACreditAccount.lvclass" Type="LVClass" URL="../../shared/ACreditAccount/ACreditAccount.lvclass"/>
-					<Item Name="AReceipt.lvclass" Type="LVClass" URL="../../shared/AReceipt/AReceipt.lvclass"/>
 				</Item>
-				<Item Name="SimpleChecking.lvclass" Type="LVClass" URL="../../shared/SimpleChecking/SimpleChecking.lvclass"/>
-				<Item Name="SimpleSavings.lvclass" Type="LVClass" URL="../../shared/SimpleSavings/SimpleSavings.lvclass"/>
-				<Item Name="SimpleCredit.lvclass" Type="LVClass" URL="../../shared/SimpleCredit/SimpleCredit.lvclass"/>
+				<Item Name="SimpleChecking.lvclass" Type="LVClass" URL="../../Shared/SimpleChecking/SimpleChecking.lvclass"/>
+				<Item Name="SimpleSavings.lvclass" Type="LVClass" URL="../../Shared/SimpleSavings/SimpleSavings.lvclass"/>
+				<Item Name="SimpleCredit.lvclass" Type="LVClass" URL="../../Shared/SimpleCredit/SimpleCredit.lvclass"/>
+			</Item>
+			<Item Name="Expenses" Type="Folder">
+				<Item Name="Abstracts" Type="Folder">
+					<Item Name="AReceipt.lvclass" Type="LVClass" URL="../../shared/AReceipt/AReceipt.lvclass"/>
+					<Item Name="AExpense.lvclass" Type="LVClass" URL="../../shared/AExpense/AExpense.lvclass"/>
+				</Item>
+			</Item>
+			<Item Name="Income" Type="Folder">
+				<Item Name="Abstracts" Type="Folder">
+					<Item Name="AIncome.lvclass" Type="LVClass" URL="../../shared/AIncome/AIncome.lvclass"/>
+				</Item>
 			</Item>
 		</Item>
 		<Item Name="Main_Host.vi" Type="VI" URL="../../Main_Host/Main_Host.vi"/>

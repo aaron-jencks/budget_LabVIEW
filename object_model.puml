@@ -62,6 +62,7 @@ package Expenses {
     abstract class AReceipt {
     + amount: float
     + store: Enum
+    + account: String
     }
     IPayable <-- AReceipt
 

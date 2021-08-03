@@ -56,11 +56,25 @@ package Accounts {
     IDepositable <-- AChecking
     IWithdrawable <-- AChecking
     AAccount <|-- AChecking
+}
 
+package Expenses {
     abstract class AReceipt {
     + amount: float
     + store: Enum
     }
     IPayable <-- AReceipt
+
+    abstract class AExpense {
+    + recurrence_interval: timestamp
+    }
+
+    AReceipt <|-- AExpense
+}
+
+abstract class AIncome {
++ account: String
++ amount: float
++ job: Enum
 }
 @enduml

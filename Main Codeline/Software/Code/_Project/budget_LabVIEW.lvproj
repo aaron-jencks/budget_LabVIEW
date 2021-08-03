@@ -43,6 +43,7 @@
 				<Item Name="IBorrowable.lvclass" Type="LVClass" URL="../../shared/IBorrowable/IBorrowable.lvclass"/>
 				<Item Name="IPayable.lvclass" Type="LVClass" URL="../../shared/IPayable/IPayable.lvclass"/>
 				<Item Name="IInfoable.lvclass" Type="LVClass" URL="../../shared/IInfoable/IInfoable.lvclass"/>
+				<Item Name="IIncome.lvclass" Type="LVClass" URL="../../shared/IIncome/IIncome.lvclass"/>
 			</Item>
 			<Item Name="Accounts" Type="Folder">
 				<Item Name="Abstracts" Type="Folder">

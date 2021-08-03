@@ -72,9 +72,15 @@ package Expenses {
     AReceipt <|-- AExpense
 }
 
+interface IIncome {
++ Pay(acccount: IDepositable)
+}
+
 abstract class AIncome {
 + account: String
 + amount: float
 + job: Enum
 }
+
+IIncome <-- AIncome
 @enduml

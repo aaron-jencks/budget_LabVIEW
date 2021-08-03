@@ -37,10 +37,10 @@
 				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Interfaces" Type="Folder">
-				<Item Name="IDepositable.lvclass" Type="LVClass" URL="../../shared/IDepositable/IDepositable.lvclass"/>
-				<Item Name="IWithdrawable.lvclass" Type="LVClass" URL="../../shared/IWithdrawable/IWithdrawable.lvclass"/>
-				<Item Name="IInterest.lvclass" Type="LVClass" URL="../../shared/IInterest/IInterest.lvclass"/>
-				<Item Name="IBorrowable.lvclass" Type="LVClass" URL="../../shared/IBorrowable/IBorrowable.lvclass"/>
+				<Item Name="IDepositable.lvclass" Type="LVClass" URL="../../Shared/IDepositable/IDepositable.lvclass"/>
+				<Item Name="IWithdrawable.lvclass" Type="LVClass" URL="../../Shared/IWithdrawable/IWithdrawable.lvclass"/>
+				<Item Name="IInterest.lvclass" Type="LVClass" URL="../../Shared/IInterest/IInterest.lvclass"/>
+				<Item Name="IBorrowable.lvclass" Type="LVClass" URL="../../Shared/IBorrowable/IBorrowable.lvclass"/>
 				<Item Name="IPayable.lvclass" Type="LVClass" URL="../../shared/IPayable/IPayable.lvclass"/>
 				<Item Name="IInfoable.lvclass" Type="LVClass" URL="../../shared/IInfoable/IInfoable.lvclass"/>
 				<Item Name="IIncome.lvclass" Type="LVClass" URL="../../shared/IIncome/IIncome.lvclass"/>
@@ -48,10 +48,10 @@
 			<Item Name="Accounts" Type="Folder">
 				<Item Name="Abstracts" Type="Folder">
 					<Item Name="AAccount.lvclass" Type="LVClass" URL="../../shared/AAccount/AAccount.lvclass"/>
-					<Item Name="AInterestAccount.lvclass" Type="LVClass" URL="../../shared/AInterestAccount/AInterestAccount.lvclass"/>
-					<Item Name="ASavings.lvclass" Type="LVClass" URL="../../shared/ASavings/ASavings.lvclass"/>
-					<Item Name="AChecking.lvclass" Type="LVClass" URL="../../shared/AChecking/AChecking.lvclass"/>
-					<Item Name="ACreditAccount.lvclass" Type="LVClass" URL="../../shared/ACreditAccount/ACreditAccount.lvclass"/>
+					<Item Name="AInterestAccount.lvclass" Type="LVClass" URL="../../Shared/AInterestAccount/AInterestAccount.lvclass"/>
+					<Item Name="ASavings.lvclass" Type="LVClass" URL="../../Shared/ASavings/ASavings.lvclass"/>
+					<Item Name="AChecking.lvclass" Type="LVClass" URL="../../Shared/AChecking/AChecking.lvclass"/>
+					<Item Name="ACreditAccount.lvclass" Type="LVClass" URL="../../Shared/ACreditAccount/ACreditAccount.lvclass"/>
 				</Item>
 				<Item Name="SimpleChecking.lvclass" Type="LVClass" URL="../../Shared/SimpleChecking/SimpleChecking.lvclass"/>
 				<Item Name="SimpleSavings.lvclass" Type="LVClass" URL="../../Shared/SimpleSavings/SimpleSavings.lvclass"/>

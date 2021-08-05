@@ -41,7 +41,7 @@
 				<Item Name="IWithdrawable.lvclass" Type="LVClass" URL="../../Shared/IWithdrawable/IWithdrawable.lvclass"/>
 				<Item Name="IInterest.lvclass" Type="LVClass" URL="../../Shared/IInterest/IInterest.lvclass"/>
 				<Item Name="IBorrowable.lvclass" Type="LVClass" URL="../../Shared/IBorrowable/IBorrowable.lvclass"/>
-				<Item Name="IPayable.lvclass" Type="LVClass" URL="../../shared/IPayable/IPayable.lvclass"/>
+				<Item Name="IPayable.lvclass" Type="LVClass" URL="../../Shared/IPayable/IPayable.lvclass"/>
 				<Item Name="IInfoable.lvclass" Type="LVClass" URL="../../shared/IInfoable/IInfoable.lvclass"/>
 				<Item Name="IIncome.lvclass" Type="LVClass" URL="../../shared/IIncome/IIncome.lvclass"/>
 			</Item>
@@ -63,6 +63,7 @@
 					<Item Name="AExpense.lvclass" Type="LVClass" URL="../../shared/AExpense/AExpense.lvclass"/>
 				</Item>
 				<Item Name="Receipt.lvclass" Type="LVClass" URL="../../shared/Receipt/Receipt.lvclass"/>
+				<Item Name="Expense Recurrence Type STYP.ctl" Type="VI" URL="../../Shared/Expense Recurrence Type STYP.ctl"/>
 			</Item>
 			<Item Name="Income" Type="Folder">
 				<Item Name="Abstracts" Type="Folder">

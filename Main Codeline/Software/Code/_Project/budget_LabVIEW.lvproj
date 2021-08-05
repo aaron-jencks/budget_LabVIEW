@@ -44,6 +44,7 @@
 				<Item Name="IPayable.lvclass" Type="LVClass" URL="../../Shared/IPayable/IPayable.lvclass"/>
 				<Item Name="IInfoable.lvclass" Type="LVClass" URL="../../shared/IInfoable/IInfoable.lvclass"/>
 				<Item Name="IIncome.lvclass" Type="LVClass" URL="../../shared/IIncome/IIncome.lvclass"/>
+				<Item Name="IRecurrable.lvclass" Type="LVClass" URL="../../shared/IRecurrable/IRecurrable.lvclass"/>
 			</Item>
 			<Item Name="Accounts" Type="Folder">
 				<Item Name="Abstracts" Type="Folder">
@@ -69,6 +70,12 @@
 				<Item Name="Abstracts" Type="Folder">
 					<Item Name="AIncome.lvclass" Type="LVClass" URL="../../shared/AIncome/AIncome.lvclass"/>
 				</Item>
+			</Item>
+			<Item Name="Recurrence" Type="Folder">
+				<Item Name="Abstracts" Type="Folder">
+					<Item Name="ARecurrence.lvclass" Type="LVClass" URL="../../shared/ARecurrence/ARecurrence.lvclass"/>
+				</Item>
+				<Item Name="Daily.lvclass" Type="LVClass" URL="../../shared/Daily/Daily.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Main_Host.vi" Type="VI" URL="../../Main_Host/Main_Host.vi"/>

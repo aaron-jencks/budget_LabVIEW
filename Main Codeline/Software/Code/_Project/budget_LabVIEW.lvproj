@@ -76,7 +76,9 @@
 					<Item Name="ARecurrence.lvclass" Type="LVClass" URL="../../shared/ARecurrence/ARecurrence.lvclass"/>
 				</Item>
 				<Item Name="Daily.lvclass" Type="LVClass" URL="../../shared/Daily/Daily.lvclass"/>
+				<Item Name="Weekly.lvclass" Type="LVClass" URL="../../shared/Weekly/Weekly.lvclass"/>
 			</Item>
+			<Item Name="Day of the Week STYP.ctl" Type="VI" URL="../../Shared/Day of the Week STYP.ctl"/>
 		</Item>
 		<Item Name="Main_Host.vi" Type="VI" URL="../../Main_Host/Main_Host.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">

@@ -49,6 +49,15 @@
 			</Item>
 		</Item>
 	</Item>
+	<Item Name="Find Week of the Month.vi" Type="VI" URL="../Find Week of the Month.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"&amp;!!!!!Q!41!-!$6&gt;F:7MA&lt;W9A47^O&gt;'A!%E"5!!9+6'FN:3"4&gt;'&amp;N=!!!'!$Q!!)!!!!"!A!!#!!!#1!!!!I!!!!!!1!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
+	</Item>
 	<Item Name="Increment Timestamp.vi" Type="VI" URL="../Increment Timestamp.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"D!!!!"1!%!!!!&amp;E"5!!9/6'FN:3"4&gt;'&amp;N=#"P&gt;81!!!N!!Q!%2'&amp;Z=Q!!%E"5!!9+6'FN:3"4&gt;'&amp;N=!!!*!$Q!!1!!!!"!!)!!Q)!!#A!!!!!!!!.!Q!!#!!!!!I!!!!!!1!%!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -57,6 +66,15 @@
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1115685376</Property>
+	</Item>
+	<Item Name="Set Timestamp Day of the Week.vi" Type="VI" URL="../Set Timestamp Day of the Week.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$+!!!!"1!%!!!!&amp;E"5!!9/6'FN:3"4&gt;'&amp;N=#"P&gt;81!!()!]&gt;UT6&lt;]!!!!"'%2B?3"P:C"U;'5A6W6F;S"46&amp;F1,G.U&lt;!"21"9!"Q:4&gt;7ZE98E'47^O:'&amp;Z"V2V:8.E98E*6W6E&lt;G6T:'&amp;Z#&amp;2I&gt;8*T:'&amp;Z"E:S;72B?1B4982V=G2B?1!!#F&gt;F:7NM?3"%&lt;V=!!"*!6!!'#F2J&lt;75A5X2B&lt;8!!!#1!]!!%!!!!!1!#!!-#!!!I!!!!!!!!#1!!!!A!!!!)!!!!!!%!"!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 	</Item>
 	<Item Name="Set Timestamp Time of Day.vi" Type="VI" URL="../Set Timestamp Time of Day.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"C!!!!"1!%!!!!&amp;E"5!!9/6'FN:3"4&gt;'&amp;N=#"P&gt;81!!!J!6!!'!V2P2!!31&amp;1!"AJ5;7VF)&amp;.U97VQ!!!E!0!!"!!!!!%!!A!$!A!!+!!!!!!!!!E!!!!)!!!!#!!!!!!"!!1!!!!!</Property>

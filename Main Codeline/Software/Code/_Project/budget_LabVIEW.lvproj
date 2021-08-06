@@ -77,6 +77,7 @@
 				</Item>
 				<Item Name="Daily.lvclass" Type="LVClass" URL="../../shared/Daily/Daily.lvclass"/>
 				<Item Name="Weekly.lvclass" Type="LVClass" URL="../../shared/Weekly/Weekly.lvclass"/>
+				<Item Name="Monthly.lvclass" Type="LVClass" URL="../../shared/Monthly/Monthly.lvclass"/>
 			</Item>
 			<Item Name="Day of the Week STYP.ctl" Type="VI" URL="../../Shared/Day of the Week STYP.ctl"/>
 		</Item>

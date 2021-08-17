@@ -8,18 +8,12 @@ package Accounts {
     + withdraw(amount: float) -> float
     }
 
-    interface IPayable {
-    + pay(amount: float) -> float
-    }
-
-    interface IBorrowable {
-    + borrow(amount: float) -> float
-    }
-
     abstract class AAccount {
     + amount: float
     + account_number: String
     }
+
+    IBasicAccount <-- AAccount
 
     interface IInterest {
     + compound(t: timestamp) -> float
@@ -36,24 +30,28 @@ package Accounts {
     + limit: float
     }
 
-    IBorrowable <-- ACreditAccount
-    IPayable <-- ACreditAccount
     AInterestAccount <|-- ACreditAccount
 
     abstract class ASavings {
     }
 
-    IDepositable <-- ASavings
-    IWithdrawable <-- ASavings
     AInterestAccount <|-- ASavings
 
     abstract class AChecking {
     + routing_number: String
     }
 
-    IDepositable <-- AChecking
-    IWithdrawable <-- AChecking
     AAccount <|-- AChecking
+
+    interface IBasicAccount {
+    }
+
+    IDepositable <|-- IBasicAccount
+    IWithdrawable <|-- IBasicAccount
+
+    interface IAccountable {
+    + pay(acts: IBasicAccount)
+    }
 }
 
 package Expenses {
@@ -62,7 +60,8 @@ package Expenses {
     + store: Enum
     + account: String
     }
-    IPayable <-- AReceipt
+
+    IAccountable <-- AReceipt
 
     abstract class ATransfer {
     + name: string
@@ -71,26 +70,17 @@ package Expenses {
     + amount: float
     }
 
-    IPayable <-- ATransfer
-
-    abstract class AExpense {
-    }
-
-    ATransfer <|-- AExpense
+    IAccountable <-- ATransfer
 }
 
 package Income {
-    interface IIncome {
-    + Pay(acccount: IDepositable)
-    }
-
     abstract class AIncome {
     + account: String
     + amount: float
     + job: Enum
     }
 
-    IIncome <-- AIncome
+    IAccountable <-- AIncome
 }
 
 package Application {
@@ -99,6 +89,55 @@ package Application {
         SAVINGS
         CREDIT
         EXPENSE
+    }
+
+    class SimpleChecking
+    AChecking <|-- SimpleChecking
+
+    class SimpleSavings
+    ASavings <|-- SimpleSavings
+
+    class SimpleCreditCard
+    ACreditAccount <|-- SimpleCreditCard
+
+    class SimpleLoan
+    ACreditAccount <|-- SimpleLoan
+
+    class MonthlyExpense
+    ATransfer <|-- MonthlyExpense
+
+    class Receipt
+    AReceipt <|-- Receipt
+
+    class Paycheck
+    AIncome <|-- Paycheck
+
+    class SimpleExpenseAccount
+    ATransfer <|-- SimpleExpenseAccount
+    IBasicAccount <-- SimpleExpenseAccount
+
+    class YearlyExpense
+    SimpleExpenseAccount <|-- YearlyExpense
+
+    class AccountController {
+    + AccountMap: map[string -> IBasicAccount]
+    + ExpenseMap: map[string -> ATransfer]
+    + Accounts: set[string]
+    + MonthlyExpenses: set[string]
+    + Expenses: IAccountable[]
+    + last_update: timestamp
+
+    + to_xml(path: filepath)
+    + from_xml(path: filepath)
+    + update_recurrences()
+    + add_expense(expense: ATransfer)
+    + add_receipt(r: AReceipt)
+    + add_account(name: string, acct: IBasicAccount)
+    + remove_account(name: string)
+    + update_account(name: string, acct: IBasicAccount)
+    + update_expense(name: string, exp: ATransfer)
+    + remove_expense(name: string)
+    + remove_receipt(r: AReceipt)
     }
 }
 @enduml

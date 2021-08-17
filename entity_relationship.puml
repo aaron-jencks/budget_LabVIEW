@@ -1,0 +1,67 @@
+@startuml
+package Accounts {
+    interface IBasicAccount
+
+    interface IAccountable {
+    + pay(acts: IBasicAccount)
+    }
+
+    IBasicAccount "1..*" <.. "1" IAccountable : "Can Manipulate"
+}
+
+package Expenses {
+    abstract class AReceipt {
+    + amount: float
+    + store: Enum
+    + account: String
+    }
+
+    IBasicAccount "1" <.. "1" AReceipt : "Pulls from"
+
+    abstract class ATransfer {
+    + name: string
+    + source: string
+    + target: string
+    + amount: float
+    }
+
+    IBasicAccount "2" <.. "1" ATransfer : "Transfers Funds"
+}
+
+package Income {
+    abstract class AIncome {
+    + account: String
+    + amount: float
+    + job: Enum
+    }
+
+    IBasicAccount "1" <.. "1" AIncome : "Pays into"
+}
+
+package Application {
+    class AccountController {
+    + AccountMap: map[string -> IBasicAccount]
+    + ExpenseMap: map[string -> ATransfer]
+    + Accounts: set[string]
+    + MonthlyExpenses: set[string]
+    + Expenses: IAccountable[]
+    + last_update: timestamp
+
+    + to_xml(path: filepath)
+    + from_xml(path: filepath)
+    + update_recurrences()
+    + add_expense(expense: ATransfer)
+    + add_receipt(r: AReceipt)
+    + add_account(name: string, acct: IBasicAccount)
+    + remove_account(name: string)
+    + update_account(name: string, acct: IBasicAccount)
+    + update_expense(name: string, exp: ATransfer)
+    + remove_expense(name: string)
+    + remove_receipt(r: AReceipt)
+    }
+
+    IBasicAccount "0..*" <.. "1" AccountController : "Manages"
+    ATransfer "0..*" <.. "1" AccountController : "Manages/updates"
+    IAccountable "0..*" <.. "1" AccountController : "Manages"
+}
+@enduml

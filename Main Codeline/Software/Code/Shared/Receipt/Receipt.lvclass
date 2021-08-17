@@ -27,12 +27,12 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="create Receipt.vi" Type="VI" URL="../create Receipt.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;[!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#:!=!!?!!!2$V*F9W6J=(1O&lt;(:D&lt;'&amp;T=Q!,5G6D:7FQ&gt;#"P&gt;81!$%"5!!9%2'&amp;U:1!!%%!Q`````Q&gt;"9W.P&gt;7ZU!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!/Q$RX3^%WQ!!!!)116*F9W6J=(1O&lt;(:D&lt;'&amp;T=QZ4&gt;'^S:3"46&amp;F1,G.U&lt;!!41"9!!1!!!!64&gt;'^S:1!.1!I!"E&amp;N&lt;X6O&gt;!!!*E"Q!"Y!!"%05G6D:7FQ&gt;#ZM&gt;G.M98.T!!J3:7.F;8"U)'FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!'!!=!#!!*!!I!#Q)!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!A!!!))!!!!#!!!!!A!!!!)!!!!!!!!$1!!!!Q!!!!!!!!!!!!!!1!-!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;.!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#:!=!!?!!!2$V*F9W6J=(1O&lt;(:D&lt;'&amp;T=Q!,5G6D:7FQ&gt;#"P&gt;81!$%"5!!9%2'&amp;U:1!!%%!Q`````Q&gt;"9W.P&gt;7ZU!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!$E!Q`````Q64&gt;'^S:1!.1!I!"E&amp;N&lt;X6O&gt;!!!*E"Q!"Y!!"%05G6D:7FQ&gt;#ZM&gt;G.M98.T!!J3:7.F;8"U)'FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!'!!=!#!!*!!I!#Q)!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!A!!!))!!!!#!!!!AA!!!!)!!!!!!!!$1!!!!Q!!!!!!!!!!!!!!1!-!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1115685376</Property>
 	</Item>
 </LVClass>

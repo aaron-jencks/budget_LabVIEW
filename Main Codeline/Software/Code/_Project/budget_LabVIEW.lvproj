@@ -64,6 +64,7 @@
 					<Item Name="AExpense.lvclass" Type="LVClass" URL="../../shared/AExpense/AExpense.lvclass"/>
 				</Item>
 				<Item Name="Receipt.lvclass" Type="LVClass" URL="../../shared/Receipt/Receipt.lvclass"/>
+				<Item Name="MonthlyExpense.lvclass" Type="LVClass" URL="../../shared/MonthlyExpense/MonthlyExpense.lvclass"/>
 			</Item>
 			<Item Name="Income" Type="Folder">
 				<Item Name="Abstracts" Type="Folder">

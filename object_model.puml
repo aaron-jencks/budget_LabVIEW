@@ -27,7 +27,6 @@ package Accounts {
 
     abstract class AInterestAccount {
     + rate: double
-    + interval: timestamp
     }
 
     IInterest <-- AInterestAccount
@@ -35,7 +34,6 @@ package Accounts {
 
     abstract class ACreditAccount {
     + limit: float
-    + limit_interval: timestamp
     }
 
     IBorrowable <-- ACreditAccount
@@ -67,7 +65,6 @@ package Expenses {
     IPayable <-- AReceipt
 
     abstract class AExpense {
-    + recurrence_interval: timestamp
     }
 
     AReceipt <|-- AExpense

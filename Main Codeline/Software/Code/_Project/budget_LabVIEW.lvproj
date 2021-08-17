@@ -64,22 +64,12 @@
 					<Item Name="AExpense.lvclass" Type="LVClass" URL="../../shared/AExpense/AExpense.lvclass"/>
 				</Item>
 				<Item Name="Receipt.lvclass" Type="LVClass" URL="../../shared/Receipt/Receipt.lvclass"/>
-				<Item Name="Expense Recurrence Type STYP.ctl" Type="VI" URL="../../Shared/Expense Recurrence Type STYP.ctl"/>
 			</Item>
 			<Item Name="Income" Type="Folder">
 				<Item Name="Abstracts" Type="Folder">
 					<Item Name="AIncome.lvclass" Type="LVClass" URL="../../shared/AIncome/AIncome.lvclass"/>
 				</Item>
 			</Item>
-			<Item Name="Recurrence" Type="Folder">
-				<Item Name="Abstracts" Type="Folder">
-					<Item Name="ARecurrence.lvclass" Type="LVClass" URL="../../shared/ARecurrence/ARecurrence.lvclass"/>
-				</Item>
-				<Item Name="Daily.lvclass" Type="LVClass" URL="../../shared/Daily/Daily.lvclass"/>
-				<Item Name="Weekly.lvclass" Type="LVClass" URL="../../shared/Weekly/Weekly.lvclass"/>
-				<Item Name="Monthly.lvclass" Type="LVClass" URL="../../shared/Monthly/Monthly.lvclass"/>
-			</Item>
-			<Item Name="Day of the Week STYP.ctl" Type="VI" URL="../../Shared/Day of the Week STYP.ctl"/>
 		</Item>
 		<Item Name="Main_Host.vi" Type="VI" URL="../../Main_Host/Main_Host.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -181,6 +171,10 @@
 			<Item Name="Main_Host - Initialize Project Paths.vi" Type="VI" URL="../../Main_Host/Main_Host - Initialize Project Paths.vi"/>
 			<Item Name="Main_Host_Status STYP.ctl" Type="VI" URL="../../Main_Host/Main_Host_Status STYP.ctl"/>
 			<Item Name="Software Reference Path Anchor.vi" Type="VI" URL="../../Software Reference Path Anchor.vi"/>
+			<Item Name="ARecurrence.lvclass" Type="LVClass" URL="../../shared/ARecurrence/ARecurrence.lvclass"/>
+			<Item Name="Daily.lvclass" Type="LVClass" URL="../../shared/Daily/Daily.lvclass"/>
+			<Item Name="Day of the Week STYP.ctl" Type="VI" URL="../../Shared/Day of the Week STYP.ctl"/>
+			<Item Name="Expense Recurrence Type STYP.ctl" Type="VI" URL="../../Shared/Expense Recurrence Type STYP.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Host EXE" Type="EXE">

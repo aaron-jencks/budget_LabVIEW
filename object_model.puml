@@ -54,6 +54,14 @@ package Accounts {
     IDepositable <-- AChecking
     IWithdrawable <-- AChecking
     AAccount <|-- AChecking
+
+    abstract class ATransfer {
+    + source: string
+    + target: string
+    + amount: float
+    }
+
+    IPayable <-- ATransfer
 }
 
 package Expenses {

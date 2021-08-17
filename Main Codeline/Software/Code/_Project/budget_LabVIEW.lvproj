@@ -46,11 +46,9 @@
 				<Item Name="IDepositable.lvclass" Type="LVClass" URL="../../Shared/IDepositable/IDepositable.lvclass"/>
 				<Item Name="IWithdrawable.lvclass" Type="LVClass" URL="../../Shared/IWithdrawable/IWithdrawable.lvclass"/>
 				<Item Name="IInterest.lvclass" Type="LVClass" URL="../../Shared/IInterest/IInterest.lvclass"/>
-				<Item Name="IBorrowable.lvclass" Type="LVClass" URL="../../Shared/IBorrowable/IBorrowable.lvclass"/>
-				<Item Name="IPayable.lvclass" Type="LVClass" URL="../../Shared/IPayable/IPayable.lvclass"/>
 				<Item Name="IInfoable.lvclass" Type="LVClass" URL="../../shared/IInfoable/IInfoable.lvclass"/>
-				<Item Name="IIncome.lvclass" Type="LVClass" URL="../../shared/IIncome/IIncome.lvclass"/>
-				<Item Name="IRecurrable.lvclass" Type="LVClass" URL="../../shared/IRecurrable/IRecurrable.lvclass"/>
+				<Item Name="IBasicAccount.lvclass" Type="LVClass" URL="../../shared/IBasicAccount/IBasicAccount.lvclass"/>
+				<Item Name="IAccountable.lvclass" Type="LVClass" URL="../../shared/IAccountable/IAccountable.lvclass"/>
 			</Item>
 			<Item Name="Accounts" Type="Folder">
 				<Item Name="Abstracts" Type="Folder">
@@ -67,15 +65,14 @@
 			<Item Name="Expenses" Type="Folder">
 				<Item Name="Abstracts" Type="Folder">
 					<Item Name="AReceipt.lvclass" Type="LVClass" URL="../../Shared/AReceipt/AReceipt.lvclass"/>
-					<Item Name="AExpense.lvclass" Type="LVClass" URL="../../Shared/AExpense/AExpense.lvclass"/>
-					<Item Name="ATransfer.lvclass" Type="LVClass" URL="../../shared/ATransfer/ATransfer.lvclass"/>
+					<Item Name="ATransfer.lvclass" Type="LVClass" URL="../../Shared/ATransfer/ATransfer.lvclass"/>
 				</Item>
 				<Item Name="Receipt.lvclass" Type="LVClass" URL="../../Shared/Receipt/Receipt.lvclass"/>
 				<Item Name="MonthlyExpense.lvclass" Type="LVClass" URL="../../Shared/MonthlyExpense/MonthlyExpense.lvclass"/>
 			</Item>
 			<Item Name="Income" Type="Folder">
 				<Item Name="Abstracts" Type="Folder">
-					<Item Name="AIncome.lvclass" Type="LVClass" URL="../../shared/AIncome/AIncome.lvclass"/>
+					<Item Name="AIncome.lvclass" Type="LVClass" URL="../../Shared/AIncome/AIncome.lvclass"/>
 				</Item>
 				<Item Name="Paycheck.lvclass" Type="LVClass" URL="../Paycheck/Paycheck.lvclass"/>
 			</Item>
@@ -184,6 +181,8 @@
 			<Item Name="Daily.lvclass" Type="LVClass" URL="../../shared/Daily/Daily.lvclass"/>
 			<Item Name="Day of the Week STYP.ctl" Type="VI" URL="../../Shared/Day of the Week STYP.ctl"/>
 			<Item Name="Expense Recurrence Type STYP.ctl" Type="VI" URL="../../Shared/Expense Recurrence Type STYP.ctl"/>
+			<Item Name="IRecurrable.lvclass" Type="LVClass" URL="../../shared/IRecurrable/IRecurrable.lvclass"/>
+			<Item Name="AExpense.lvclass" Type="LVClass" URL="../../Shared/AExpense/AExpense.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Host EXE" Type="EXE">

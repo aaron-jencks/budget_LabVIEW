@@ -64,11 +64,6 @@ package Expenses {
     }
     IPayable <-- AReceipt
 
-    abstract class AExpense {
-    }
-
-    AReceipt <|-- AExpense
-
     abstract class ATransfer {
     + name: string
     + source: string
@@ -77,6 +72,11 @@ package Expenses {
     }
 
     IPayable <-- ATransfer
+
+    abstract class AExpense {
+    }
+
+    ATransfer <|-- AExpense
 }
 
 package Income {

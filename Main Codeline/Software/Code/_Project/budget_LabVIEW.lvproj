@@ -68,6 +68,7 @@
 				<Item Name="Abstracts" Type="Folder">
 					<Item Name="AReceipt.lvclass" Type="LVClass" URL="../../Shared/AReceipt/AReceipt.lvclass"/>
 					<Item Name="AExpense.lvclass" Type="LVClass" URL="../../Shared/AExpense/AExpense.lvclass"/>
+					<Item Name="ATransfer.lvclass" Type="LVClass" URL="../../shared/ATransfer/ATransfer.lvclass"/>
 				</Item>
 				<Item Name="Receipt.lvclass" Type="LVClass" URL="../../Shared/Receipt/Receipt.lvclass"/>
 				<Item Name="MonthlyExpense.lvclass" Type="LVClass" URL="../../Shared/MonthlyExpense/MonthlyExpense.lvclass"/>

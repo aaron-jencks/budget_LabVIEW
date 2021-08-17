@@ -78,6 +78,7 @@
 				</Item>
 				<Item Name="Paycheck.lvclass" Type="LVClass" URL="../Paycheck/Paycheck.lvclass"/>
 			</Item>
+			<Item Name="Timestamp Month Difference.vi" Type="VI" URL="../../Shared/Timestamp Month Difference.vi"/>
 		</Item>
 		<Item Name="Main_Host.vi" Type="VI" URL="../../Main_Host/Main_Host.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">

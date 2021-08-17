@@ -37,6 +37,7 @@
 		</Item>
 		<Item Name="Modules" Type="Folder">
 			<Item Name="Module_UI_TopLevel.lvclass" Type="LVClass" URL="../../Module_UI_TopLevel/Module_UI_TopLevel.lvclass"/>
+			<Item Name="Module_ENG_AccountController.lvclass" Type="LVClass" URL="../../Module_ENG_AccountController/Module_ENG_AccountController.lvclass"/>
 		</Item>
 		<Item Name="Shared" Type="Folder">
 			<Item Name="Globals" Type="Folder" URL="../../Shared/Globals">

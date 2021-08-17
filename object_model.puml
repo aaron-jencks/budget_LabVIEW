@@ -83,4 +83,13 @@ package Income {
 
     IIncome <-- AIncome
 }
+
+package Application {
+    enum AccountTypes {
+        CHECKING
+        SAVINGS
+        CREDIT
+        EXPENSE
+    }
+}
 @enduml

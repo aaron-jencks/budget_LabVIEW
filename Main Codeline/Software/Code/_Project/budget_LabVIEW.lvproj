@@ -25,7 +25,13 @@
 		<Item Name="Config Files_Host" Type="Folder" URL="../../../Config Files_Host">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Daemons" Type="Folder"/>
+		<Item Name="Daemons" Type="Folder">
+			<Item Name="CreateStore" Type="Folder">
+				<Item Name="Daemon_CreateStore.vi" Type="VI" URL="../../Daemon_CreateStore/Daemon_CreateStore.vi"/>
+				<Item Name="Daemon_CreateStore - Status STYP.ctl" Type="VI" URL="../../Daemon_CreateStore/Daemon_CreateStore - Status STYP.ctl"/>
+				<Item Name="Daemon_CreateStore Launcher.vi" Type="VI" URL="../../Daemon_CreateStore/Daemon_CreateStore Launcher.vi"/>
+			</Item>
+		</Item>
 		<Item Name="jMsgs" Type="Folder" URL="../../Shared/jMsgs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>

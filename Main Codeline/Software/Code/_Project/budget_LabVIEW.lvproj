@@ -76,6 +76,7 @@
 				<Item Name="Abstracts" Type="Folder">
 					<Item Name="AIncome.lvclass" Type="LVClass" URL="../../shared/AIncome/AIncome.lvclass"/>
 				</Item>
+				<Item Name="Paycheck.lvclass" Type="LVClass" URL="../Paycheck/Paycheck.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Main_Host.vi" Type="VI" URL="../../Main_Host/Main_Host.vi"/>

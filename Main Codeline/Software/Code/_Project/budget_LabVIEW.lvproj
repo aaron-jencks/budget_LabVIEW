@@ -66,11 +66,11 @@
 			</Item>
 			<Item Name="Expenses" Type="Folder">
 				<Item Name="Abstracts" Type="Folder">
-					<Item Name="AReceipt.lvclass" Type="LVClass" URL="../../shared/AReceipt/AReceipt.lvclass"/>
-					<Item Name="AExpense.lvclass" Type="LVClass" URL="../../shared/AExpense/AExpense.lvclass"/>
+					<Item Name="AReceipt.lvclass" Type="LVClass" URL="../../Shared/AReceipt/AReceipt.lvclass"/>
+					<Item Name="AExpense.lvclass" Type="LVClass" URL="../../Shared/AExpense/AExpense.lvclass"/>
 				</Item>
-				<Item Name="Receipt.lvclass" Type="LVClass" URL="../../shared/Receipt/Receipt.lvclass"/>
-				<Item Name="MonthlyExpense.lvclass" Type="LVClass" URL="../../shared/MonthlyExpense/MonthlyExpense.lvclass"/>
+				<Item Name="Receipt.lvclass" Type="LVClass" URL="../../Shared/Receipt/Receipt.lvclass"/>
+				<Item Name="MonthlyExpense.lvclass" Type="LVClass" URL="../../Shared/MonthlyExpense/MonthlyExpense.lvclass"/>
 			</Item>
 			<Item Name="Income" Type="Folder">
 				<Item Name="Abstracts" Type="Folder">

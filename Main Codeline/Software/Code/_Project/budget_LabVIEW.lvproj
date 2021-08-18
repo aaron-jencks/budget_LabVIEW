@@ -47,13 +47,13 @@
 				<Item Name="IDepositable.lvclass" Type="LVClass" URL="../../Shared/IDepositable/IDepositable.lvclass"/>
 				<Item Name="IWithdrawable.lvclass" Type="LVClass" URL="../../Shared/IWithdrawable/IWithdrawable.lvclass"/>
 				<Item Name="IInterest.lvclass" Type="LVClass" URL="../../Shared/IInterest/IInterest.lvclass"/>
-				<Item Name="IInfoable.lvclass" Type="LVClass" URL="../../shared/IInfoable/IInfoable.lvclass"/>
-				<Item Name="IBasicAccount.lvclass" Type="LVClass" URL="../../shared/IBasicAccount/IBasicAccount.lvclass"/>
-				<Item Name="IAccountable.lvclass" Type="LVClass" URL="../../shared/IAccountable/IAccountable.lvclass"/>
+				<Item Name="IInfoable.lvclass" Type="LVClass" URL="../../Shared/IInfoable/IInfoable.lvclass"/>
+				<Item Name="IBasicAccount.lvclass" Type="LVClass" URL="../../Shared/IBasicAccount/IBasicAccount.lvclass"/>
+				<Item Name="IAccountable.lvclass" Type="LVClass" URL="../../Shared/IAccountable/IAccountable.lvclass"/>
 			</Item>
 			<Item Name="Accounts" Type="Folder">
 				<Item Name="Abstracts" Type="Folder">
-					<Item Name="AAccount.lvclass" Type="LVClass" URL="../../shared/AAccount/AAccount.lvclass"/>
+					<Item Name="AAccount.lvclass" Type="LVClass" URL="../../Shared/AAccount/AAccount.lvclass"/>
 					<Item Name="AInterestAccount.lvclass" Type="LVClass" URL="../../Shared/AInterestAccount/AInterestAccount.lvclass"/>
 					<Item Name="ASavings.lvclass" Type="LVClass" URL="../../Shared/ASavings/ASavings.lvclass"/>
 					<Item Name="AChecking.lvclass" Type="LVClass" URL="../../Shared/AChecking/AChecking.lvclass"/>
@@ -70,7 +70,7 @@
 				</Item>
 				<Item Name="Receipt.lvclass" Type="LVClass" URL="../../Shared/Receipt/Receipt.lvclass"/>
 				<Item Name="MonthlyExpense.lvclass" Type="LVClass" URL="../../Shared/MonthlyExpense/MonthlyExpense.lvclass"/>
-				<Item Name="SimpleExpenseAccount.lvclass" Type="LVClass" URL="../../shared/SimpleExpenseAccount/SimpleExpenseAccount.lvclass"/>
+				<Item Name="SimpleExpenseAccount.lvclass" Type="LVClass" URL="../../Shared/SimpleExpenseAccount/SimpleExpenseAccount.lvclass"/>
 			</Item>
 			<Item Name="Income" Type="Folder">
 				<Item Name="Abstracts" Type="Folder">
